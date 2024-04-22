@@ -7,6 +7,6 @@ public class GameLoadup : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("OfficialGame");
     }
 }
