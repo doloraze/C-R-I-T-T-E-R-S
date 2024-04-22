@@ -2590,7 +2590,6 @@ GameObject:
   - component: {fileID: 2074280143}
   - component: {fileID: 2074280142}
   - component: {fileID: 2074280141}
-  - component: {fileID: 2074280140}
   - component: {fileID: 2074280144}
   - component: {fileID: 2074280145}
   m_Layer: 0
@@ -2600,19 +2599,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2074280140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2074280139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa8ec2256175d1540bf10c0c996334df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 20
 --- !u!50 &2074280141
 Rigidbody2D:
   serializedVersion: 4
@@ -2701,7 +2687,7 @@ Transform:
   m_GameObject: {fileID: 2074280139}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.0666, y: -80.9, z: 0}
+  m_LocalPosition: {x: -21.0666, y: -83.4, z: 0}
   m_LocalScale: {x: 4.8253517, y: 5.044806, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
