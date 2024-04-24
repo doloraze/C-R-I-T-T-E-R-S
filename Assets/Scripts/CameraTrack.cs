@@ -7,7 +7,7 @@ public class CameraTrack : MonoBehaviour
     //allows us to target a specific game object
     public Transform target;
 
-    public Vector3 offset = new Vector3(0, 2, -10);
+    public Vector3 offset = new Vector3(0, 0, -10);
 
     //contols how snappy or slow the camera is in following the player
     public float smoothTime = 0.25f;
