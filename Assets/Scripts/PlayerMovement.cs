@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed;
         Vector2 moveVector = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
 
