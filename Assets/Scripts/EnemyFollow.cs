@@ -8,6 +8,8 @@ public class EnemyFollow : MonoBehaviour
     public float speed;
 
     private float distance;
+  
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,9 @@ public class EnemyFollow : MonoBehaviour
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
 
-        transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+
+        
     }
+      
 }

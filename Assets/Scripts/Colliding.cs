@@ -14,6 +14,13 @@ public class Colliding : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+       private void OnCollisonEnter2D(Collision2D collision)
+      {
+        if(collision.gameObject.CompareTag("Player"));
+        
+        
+      }
+    
 }
