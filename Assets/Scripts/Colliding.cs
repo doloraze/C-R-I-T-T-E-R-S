@@ -21,7 +21,7 @@ public class Colliding : MonoBehaviour
     }
        private void OnCollisonEnter2D(Collision2D collision)
       {
-        if(collision.gameObject.CompareTag("Player"));
+        if(collision.gameObject.CompareTag("Player"))
         
         myObject.GetComponent<EnemyFollow>().Update();
       }
