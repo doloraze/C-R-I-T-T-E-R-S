@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Colliding : MonoBehaviour
+
 {
+  public GameObject myObject;
+
     public 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +23,7 @@ public class Colliding : MonoBehaviour
       {
         if(collision.gameObject.CompareTag("Player"));
         
-        
+        myObject.GetComponent<EnemyFollow>().Update();
       }
     
 }

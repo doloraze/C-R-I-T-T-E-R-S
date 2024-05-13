@@ -7,7 +7,7 @@ public class EnemyFollow : MonoBehaviour
     public GameObject player;
     public float speed;
 
-    private float distance;
+    public float distance;
   
 
     // Start is called before the first frame update
@@ -17,7 +17,7 @@ public class EnemyFollow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
