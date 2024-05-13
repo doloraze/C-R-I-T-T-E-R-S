@@ -385,6 +385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 47219784}
   - component: {fileID: 47219783}
+  - component: {fileID: 47219785}
   m_Layer: 0
   m_Name: Tree (219)
   m_TagString: Untagged
@@ -459,6 +460,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &47219785
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47219782}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.22739938, y: 0}
+  m_Size: {x: 2.0679326, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &48645415
 GameObject:
   m_ObjectHideFlags: 0
@@ -31634,6 +31670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 123564078}
   - component: {fileID: 123564077}
+  - component: {fileID: 123564079}
   m_Layer: 0
   m_Name: Tree (145)
   m_TagString: Untagged
@@ -31681,7 +31718,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f34fe7ea2d80dbd48835d8284e98ff8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31708,6 +31745,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &123564079
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123564076}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.5230155, y: 0.0000018599626}
+  m_Size: {x: 3.113969, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &139852139
 GameObject:
   m_ObjectHideFlags: 0
@@ -32054,6 +32126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 211500948}
   - component: {fileID: 211500947}
+  - component: {fileID: 211500949}
   m_Layer: 0
   m_Name: Tree (172)
   m_TagString: Untagged
@@ -32128,6 +32201,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &211500949
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211500946}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.29561892, y: 0.20574878}
+  m_Size: {x: 3.5687623, y: 3.7485085}
+  m_Direction: 0
 --- !u!1 &245187441
 GameObject:
   m_ObjectHideFlags: 0
@@ -32726,6 +32834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 350857719}
   - component: {fileID: 350857718}
+  - component: {fileID: 350857720}
   m_Layer: 0
   m_Name: Tree (193)
   m_TagString: Untagged
@@ -32800,6 +32909,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &350857720
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350857717}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.040260434, y: -0.33114403}
+  m_Size: {x: 2.2275326, y: 3.4977055}
+  m_Direction: 0
 --- !u!1 &352865089
 GameObject:
   m_ObjectHideFlags: 0
@@ -32810,6 +32954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352865091}
   - component: {fileID: 352865090}
+  - component: {fileID: 352865092}
   m_Layer: 0
   m_Name: Tree (182)
   m_TagString: Untagged
@@ -32884,6 +33029,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &352865092
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352865089}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.022743557, y: 0}
+  m_Size: {x: 2.0224621, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &353107530
 GameObject:
   m_ObjectHideFlags: 0
@@ -33146,6 +33326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 437773580}
   - component: {fileID: 437773579}
+  - component: {fileID: 437773581}
   m_Layer: 0
   m_Name: Tree (186)
   m_TagString: Untagged
@@ -33220,6 +33401,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &437773581
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437773578}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.12077852, y: 0.0000018599626}
+  m_Size: {x: 2.3885798, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &439663365
 GameObject:
   m_ObjectHideFlags: 0
@@ -35628,6 +35844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 755721705}
   - component: {fileID: 755721704}
+  - component: {fileID: 755721706}
   m_Layer: 0
   m_Name: Tree (175)
   m_TagString: Untagged
@@ -35702,6 +35919,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &755721706
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755721703}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000003826773, y: 0.2057485}
+  m_Size: {x: 4.16, y: 3.7485085}
+  m_Direction: 0
 --- !u!1 &766931630
 GameObject:
   m_ObjectHideFlags: 0
@@ -35880,6 +36132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 804972163}
   - component: {fileID: 804972162}
+  - component: {fileID: 804972164}
   m_Layer: 0
   m_Name: Tree (204)
   m_TagString: Untagged
@@ -35954,6 +36207,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &804972164
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804972161}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.020124651, y: -0.0496693}
+  m_Size: {x: 1.9457207, y: 2.8685265}
+  m_Direction: 0
 --- !u!1 &806263085
 GameObject:
   m_ObjectHideFlags: 0
@@ -36262,6 +36550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 829464660}
   - component: {fileID: 829464659}
+  - component: {fileID: 829464661}
   m_Layer: 0
   m_Name: Tree (179)
   m_TagString: Untagged
@@ -36336,6 +36625,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &829464661
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829464658}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.24315777}
+  m_Size: {x: 4.16, y: 3.6736917}
+  m_Direction: 0
 --- !u!1 &842138593
 GameObject:
   m_ObjectHideFlags: 0
@@ -37124,6 +37448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 909758588}
   - component: {fileID: 909758587}
+  - component: {fileID: 909758589}
   m_Layer: 0
   m_Name: Tree (192)
   m_TagString: Untagged
@@ -37198,6 +37523,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &909758589
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909758586}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000027831077, y: 0.0000028614809}
+  m_Size: {x: 2.308059, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &912916687
 GameObject:
   m_ObjectHideFlags: 0
@@ -37208,6 +37568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 912916689}
   - component: {fileID: 912916688}
+  - component: {fileID: 912916690}
   m_Layer: 0
   m_Name: Tree (227)
   m_TagString: Untagged
@@ -37282,6 +37643,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &912916690
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912916687}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.060387872, y: -0.13245566}
+  m_Size: {x: 2.50935, y: 3.8950825}
+  m_Direction: 0
 --- !u!1 &930154935
 GameObject:
   m_ObjectHideFlags: 0
@@ -38430,6 +38826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082058265}
   - component: {fileID: 1082058264}
+  - component: {fileID: 1082058266}
   m_Layer: 0
   m_Name: Tree (174)
   m_TagString: Untagged
@@ -38504,6 +38901,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1082058266
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082058263}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000003826773, y: 0.16834007}
+  m_Size: {x: 4.16, y: 3.823325}
+  m_Direction: 0
 --- !u!1 &1111452363
 GameObject:
   m_ObjectHideFlags: 0
@@ -38603,6 +39035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 89836792}
   speed: 0
+  distance: 0
 --- !u!1 &1118716899
 GameObject:
   m_ObjectHideFlags: 0
@@ -38613,6 +39046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1118716901}
   - component: {fileID: 1118716900}
+  - component: {fileID: 1118716902}
   m_Layer: 0
   m_Name: Tree (163)
   m_TagString: Untagged
@@ -38687,6 +39121,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1118716902
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118716899}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.5002747, y: 0.0000014307404}
+  m_Size: {x: 3.1594505, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &1130116565
 GameObject:
   m_ObjectHideFlags: 0
@@ -39117,6 +39586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1188700838}
   - component: {fileID: 1188700837}
+  - component: {fileID: 1188700839}
   m_Layer: 0
   m_Name: Tree (197)
   m_TagString: Untagged
@@ -39191,6 +39661,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1188700839
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188700836}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.045481544, y: 0}
+  m_Size: {x: 2.067938, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &1193459980
 GameObject:
   m_ObjectHideFlags: 0
@@ -39201,6 +39706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1193459982}
   - component: {fileID: 1193459981}
+  - component: {fileID: 1193459983}
   m_Layer: 0
   m_Name: Tree (178)
   m_TagString: Untagged
@@ -39275,6 +39781,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1193459983
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193459980}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.24315749}
+  m_Size: {x: 4.16, y: 3.6736917}
+  m_Direction: 0
 --- !u!1 &1194026038
 GameObject:
   m_ObjectHideFlags: 0
@@ -39537,6 +40078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1209018797}
   - component: {fileID: 1209018796}
+  - component: {fileID: 1209018798}
   m_Layer: 0
   m_Name: Tree (201)
   m_TagString: Untagged
@@ -39611,6 +40153,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1209018798
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209018795}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.020130217, y: -0.09934175}
+  m_Size: {x: 2.4288347, y: 3.1003304}
+  m_Direction: 0
 --- !u!1 &1237775370
 GameObject:
   m_ObjectHideFlags: 0
@@ -40086,6 +40663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1289141121}
   - component: {fileID: 1289141120}
+  - component: {fileID: 1289141122}
   m_Layer: 0
   m_Name: Tree (217)
   m_TagString: Untagged
@@ -40160,6 +40738,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1289141122
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289141119}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.020133002, y: 0.06623298}
+  m_Size: {x: 2.106757, y: 3.0340998}
+  m_Direction: 0
 --- !u!1 &1289327316
 GameObject:
   m_ObjectHideFlags: 0
@@ -40506,6 +41119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1347971879}
   - component: {fileID: 1347971878}
+  - component: {fileID: 1347971880}
   m_Layer: 0
   m_Name: Tree (162)
   m_TagString: Untagged
@@ -40553,7 +41167,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f34fe7ea2d80dbd48835d8284e98ff8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -40580,6 +41194,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1347971880
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347971877}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.5002775, y: 0.0000028614809}
+  m_Size: {x: 3.159445, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &1412572365
 GameObject:
   m_ObjectHideFlags: 0
@@ -41056,6 +41705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1504610997}
   - component: {fileID: 1504610996}
+  - component: {fileID: 1504610998}
   m_Layer: 0
   m_Name: Tree (127)
   m_TagString: Untagged
@@ -41130,6 +41780,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1504610998
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504610995}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.43205798, y: 0.0000018599626}
+  m_Size: {x: 3.2958841, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &1520971860
 GameObject:
   m_ObjectHideFlags: 0
@@ -41690,6 +42375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1549127344}
   - component: {fileID: 1549127343}
+  - component: {fileID: 1549127345}
   m_Layer: 0
   m_Name: Tree (218)
   m_TagString: Untagged
@@ -41764,6 +42450,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1549127345
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549127342}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.020130217, y: 0.033116207}
+  m_Size: {x: 2.1067624, y: 3.0341012}
+  m_Direction: 0
 --- !u!1 &1557280236
 GameObject:
   m_ObjectHideFlags: 0
@@ -41942,6 +42663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1600312920}
   - component: {fileID: 1600312919}
+  - component: {fileID: 1600312921}
   m_Layer: 0
   m_Name: Tree (203)
   m_TagString: Untagged
@@ -42016,6 +42738,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1600312921
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600312918}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.020135785, y: -0.09934232}
+  m_Size: {x: 2.2678041, y: 2.702955}
+  m_Direction: 0
 --- !u!1 &1625064664
 GameObject:
   m_ObjectHideFlags: 0
@@ -42194,6 +42951,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1654927887}
   - component: {fileID: 1654927886}
+  - component: {fileID: 1654927888}
   m_Layer: 0
   m_Name: Tree (126)
   m_TagString: Untagged
@@ -42268,6 +43026,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1654927888
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654927885}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.04547876, y: 0}
+  m_Size: {x: 2.7046518, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &1665180787
 GameObject:
   m_ObjectHideFlags: 0
@@ -42530,6 +43323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1726926758}
   - component: {fileID: 1726926757}
+  - component: {fileID: 1726926759}
   m_Layer: 0
   m_Name: Tree (205)
   m_TagString: Untagged
@@ -42604,6 +43398,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1726926759
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726926756}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.04025487, y: 0.049673878}
+  m_Size: {x: 1.8249394, y: 3.0009873}
+  m_Direction: 0
 --- !u!1 &1740852243
 GameObject:
   m_ObjectHideFlags: 0
@@ -42614,6 +43443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1740852245}
   - component: {fileID: 1740852244}
+  - component: {fileID: 1740852246}
   m_Layer: 0
   m_Name: Tree (187)
   m_TagString: Untagged
@@ -42688,6 +43518,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1740852246
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740852243}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.10064831, y: 0.0000018599626}
+  m_Size: {x: 2.3483195, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &1741263247
 GameObject:
   m_ObjectHideFlags: 0
@@ -42698,6 +43563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741263249}
   - component: {fileID: 1741263248}
+  - component: {fileID: 1741263250}
   m_Layer: 0
   m_Name: Tree (195)
   m_TagString: Untagged
@@ -42772,6 +43638,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1741263250
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741263247}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.10064831, y: -0.26491705}
+  m_Size: {x: 2.4288404, y: 3.630164}
+  m_Direction: 0
 --- !u!1 &1757648013
 GameObject:
   m_ObjectHideFlags: 0
@@ -43202,6 +44103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1843002752}
   - component: {fileID: 1843002751}
+  - component: {fileID: 1843002753}
   m_Layer: 0
   m_Name: Tree (91)
   m_TagString: Untagged
@@ -43276,6 +44178,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1843002753
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843002750}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.02273799, y: 0}
+  m_Size: {x: 2.295329, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &1853515303
 GameObject:
   m_ObjectHideFlags: 0
@@ -43286,6 +44223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1853515305}
   - component: {fileID: 1853515304}
+  - component: {fileID: 1853515306}
   m_Layer: 0
   m_Name: Tree (109)
   m_TagString: Untagged
@@ -43333,7 +44271,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f34fe7ea2d80dbd48835d8284e98ff8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -43360,6 +44298,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1853515306
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853515303}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.02273799, y: 0.0000018599626}
+  m_Size: {x: 2.2043772, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &1883632133
 GameObject:
   m_ObjectHideFlags: 0
@@ -43454,6 +44427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1893457760}
   - component: {fileID: 1893457759}
+  - component: {fileID: 1893457761}
   m_Layer: 0
   m_Name: Tree (177)
   m_TagString: Untagged
@@ -43528,6 +44502,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1893457761
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893457758}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000003826773, y: 0.24315706}
+  m_Size: {x: 4.16, y: 3.673692}
+  m_Direction: 0
 --- !u!1 &1895760560
 GameObject:
   m_ObjectHideFlags: 0
@@ -43538,6 +44547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1895760562}
   - component: {fileID: 1895760561}
+  - component: {fileID: 1895760563}
   m_Layer: 0
   m_Name: Tree (173)
   m_TagString: Untagged
@@ -43612,6 +44622,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1895760563
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895760560}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.18704413}
+  m_Size: {x: 4.16, y: 3.7859168}
+  m_Direction: 0
 --- !u!1 &1895801768
 GameObject:
   m_ObjectHideFlags: 0
@@ -44669,6 +45714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2e0ee4c2dddc7d4987968826b158e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myObject: {fileID: 0}
 --- !u!1 &1993222213
 GameObject:
   m_ObjectHideFlags: 0
@@ -44679,6 +45725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993222215}
   - component: {fileID: 1993222214}
+  - component: {fileID: 1993222216}
   m_Layer: 0
   m_Name: Tree (144)
   m_TagString: Untagged
@@ -44753,6 +45800,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1993222216
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993222213}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.5002747, y: 0.0000018599626}
+  m_Size: {x: 3.1594505, y: 4.1599994}
+  m_Direction: 0
 --- !u!1 &1994685417
 GameObject:
   m_ObjectHideFlags: 0
@@ -45015,6 +46097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2025433213}
   - component: {fileID: 2025433212}
+  - component: {fileID: 2025433214}
   m_Layer: 0
   m_Name: Tree (176)
   m_TagString: Untagged
@@ -45089,6 +46172,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &2025433214
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025433211}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000003826773, y: 0.18704471}
+  m_Size: {x: 4.16, y: 3.7859178}
+  m_Direction: 0
 --- !u!1 &2032539158
 GameObject:
   m_ObjectHideFlags: 0
@@ -45519,6 +46637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105091093}
   - component: {fileID: 2105091092}
+  - component: {fileID: 2105091094}
   m_Layer: 0
   m_Name: Tree (206)
   m_TagString: Untagged
@@ -45593,6 +46712,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904414124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &2105091094
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105091091}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.04025487, y: -0.016555099}
+  m_Size: {x: 1.9859811, y: 2.802298}
+  m_Direction: 0
 --- !u!1 &2115115865
 GameObject:
   m_ObjectHideFlags: 0
