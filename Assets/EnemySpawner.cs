@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private Transform enemyTransform;
+    [SerializeField] public Transform enemyTransform;
 
     private void Start()
     {
@@ -14,6 +14,6 @@ public class EnemySpawner : MonoBehaviour
     private void StartBattle()
     {
         Debug.Log("StartBattle");
-        enemyTransform.GetComponent<EnemySpawn>().Spawn();
+        enemyTransform.GetComponent< EnemySpawn >().Spawn();
     }
 }
