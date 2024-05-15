@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Colliding : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public EnemyFollow enemy;
 
     // Update is called once per frame
+    void Start()
+    {
+       // enemy = GetComponent<EnemyFollow>();
+    }
     
-    
-       public void OnCollision2D(Collision2D collision)
+       public void OnTriggerEnter2D(Collider2D collider)
        {
-        if(collision.gameObject.CompareTag("Player"))
-        GameObject.Find("Enemy").SetActive(true);
+        if(collider.gameObject.CompareTag("Player"))
+        Debug.Log("true");
+            enemy.enabled = true;
        }
     
 }
