@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator animator;
     float horizontalMovement = 0f;
+    float verticalMovement = 0f;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed;
+        verticalMovement = Input.GetAxis("Vertical") * moveSpeed;
         Vector2 moveVector = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMovement));
@@ -34,5 +36,7 @@ public class PlayerMovement : MonoBehaviour
         } else if(horizontalInput > 0){
             transform.localScale = new Vector3(0.14f, 0.14f, 1);
         }
+
+        
     }
 }
