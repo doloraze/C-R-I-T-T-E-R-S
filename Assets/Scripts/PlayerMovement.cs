@@ -25,9 +25,9 @@ public class PlayerMovement : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed;
         verticalMovement = Input.GetAxis("Vertical") * moveSpeed;
-        Vector2 moveVector = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
 
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMovement));
+        animator.SetFloat("Speed2", Mathf.Abs(horizontalMovement));
+        animator.SetFloat("Speed", Mathf.Abs(verticalMovement));
 
         rb.velocity = new Vector2(horizontalInput, verticalInput) * moveSpeed;
 
